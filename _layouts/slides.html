@@ -19,6 +19,15 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/reveal.js/css/reveal.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/reveal.js/css/theme/{% if page.theme %}{{page.theme}}{% else %}white{% endif %}.css" id="theme">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/reveal.js/lib/css/zenburn.css">
+  <style>
+    /*remove border from images*/
+    .reveal section img {
+      margin: 0;
+      border: 0px;
+      background: none;
+      box-shadow: none;
+    }
+  </style>
   <script>
     var link = document.createElement( 'link' );
     link.rel = 'stylesheet';
