@@ -1,0 +1,51 @@
+---
+pages:
+- _slides/bachelorthesis/index.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
+- name: theme
+  label: Theme
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: reveal_config
+  label: Reveal config
+  type: field_group
+  fields:
+  - name: controls
+    label: Controls
+    type: boolean
+    hidden: false
+    default: ''
+  - name: progress
+    label: Progress
+    type: boolean
+    hidden: false
+    default: ''
+  - name: transition
+    label: Transition
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: slides
